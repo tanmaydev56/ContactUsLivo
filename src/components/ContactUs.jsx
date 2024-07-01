@@ -74,7 +74,7 @@ const ContactUs = () => {
                 marginTop: "24px",
               }}
             >
-              <img src="/public/Location.svg" alt=""  style={{
+              <img src="/Location.svg" alt=""  style={{
                 width: "128px",
                 height:"128px"
               }}/>
@@ -134,7 +134,7 @@ const ContactUs = () => {
               }}
             >
              
-                 <img src="/public/phone.svg" alt=""  style={{
+                 <img src="/phone.svg" alt=""  style={{
                 width: "128px",
                 height:"128px"
               }}/>
@@ -194,7 +194,7 @@ const ContactUs = () => {
                 marginTop: "24px",
               }}
             >
-              <img src="/public/Email.svg" alt=""  style={{
+              <img src="/Email.svg" alt=""  style={{
                 width: "128px",
                 height:"128px"
               }}/>
