@@ -38,7 +38,8 @@ const ContactUs = () => {
           }}
         ></div>
       </Box>
-      <Stack
+      <Stack 
+     
         flexDirection={{
           base: "column",
           md: "row",
@@ -52,7 +53,23 @@ const ContactUs = () => {
           marginTop: "72.5px",
         }}
       >
+   <div> 
+   <div style={{
+  background: "#D9D9D9",
+  borderRadius: "20px",
+  width: "269px",
+  height: "483px",
+  border: "3px solid #000",
+position:'absolute',
+marginLeft:"24px",
+marginTop:"2.5rem",
+zIndex:"0"
+ 
+}}>
+  
+</div>
         <Card
+      
           style={{
             width: "269px",
             height: "490px",
@@ -60,57 +77,83 @@ const ContactUs = () => {
             borderRadius: "20px",
             border: "3px solid #000",
             background: "#F2F7F2",
-            boxShadow: "25px 25px 0px 0px #D9D9D9 ",
+            zIndex:"2",
             textAlign: "center",
+            margin:"1rem",
+            marginLeft:""
           }}
         >
-          <Stack>
-            <Container
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                width: "197px",
-                height: "197px",
-                borderRadius: "50%",
-                background: "#D8D5D0",
-                marginTop: "24px",
-              }}
-            >
-              <img src="/Location.svg" alt=""  style={{
-                width: "128px",
-                height:"128px"
-              }}/>
-            </Container>
-            <Text
-              style={{
-                textAlign: "center",
-                fontSize: "40px",
-                fontWeight: "400",
-                lineHeight: "100px",
-                color: "#000",
-                fontStyle: "normal",
-              }}
-            >
-              Address
-            </Text>
-            <Text
-              style={{
-                textAlign: "center",
-                fontSize: "20px",
-                fontWeight: "400",
-                lineHeight: "24px",
-                color: "#000",
-                fontStyle: "normal",
-              }}
-            >
-              Delhi Office: 6950 S. Jordan Road Centennial, CO 80112
-              <br />
-              <br />
-              Bengaluru Office:6775 Sherman Street,Loveland, CO 80538
-            </Text>
-          </Stack>
+           
+<Stack>
+    <Container
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        width: "197px",
+        height: "197px",
+        borderRadius: "50%",
+        background: "#D8D5D0",
+        marginTop: "24px"
+      }}
+    >
+      <img src="/Location.svg" alt="" style={{
+        width: "128px",
+        height: "128px"
+      }} />
+    </Container>
+    <Text
+      style={{
+        textAlign: "center",
+        fontSize: "40px",
+        fontWeight: "400",
+        lineHeight: "100px",
+        color: "#000",
+        fontStyle: "normal"
+      }}
+    >
+      Address
+    </Text>
+    <Text
+      style={{
+        textAlign: "center",
+        fontSize: "20px",
+        fontWeight: "400",
+        lineHeight: "24px",
+        color: "#000",
+        fontStyle: "normal"
+      }}
+    >
+      Delhi Office: 6950 S. Jordan Road Centennial, CO 80112
+      <br />
+      <br />
+      Bengaluru Office: 6775 Sherman Street, Loveland, CO 80538
+    </Text>
+  </Stack>
+
+         
+             
+  
+
         </Card>
+        </div>
+      
+        <div>
+        <div style={{
+  background: "#D9D9D9",
+  borderRadius: "20px",
+  width: "269px",
+  height: "483px",
+  border: "3px solid #000",
+position:'absolute',
+marginLeft:"24px",
+marginTop:"1.6rem",
+zIndex:"0"
+ 
+}}>
+  
+</div>
+          
         <Card
           style={{
             width: "269px",
@@ -119,7 +162,7 @@ const ContactUs = () => {
             borderRadius: "20px",
             border: "3px solid #000",
             background: "#F2F7F2",
-            boxShadow: "25px 25px 0px 0px #D9D9D9 ",
+           
             textAlign: "center",
           }}
         >
@@ -172,6 +215,24 @@ const ContactUs = () => {
             </Text>
           </Stack>
         </Card>
+        </div>
+        <div>
+        <div style={{
+  background: "#D9D9D9",
+  borderRadius: "20px",
+  width: "269px",
+  height: "483px",
+  border: "3px solid #000",
+position:'absolute',
+marginLeft:"24px",
+marginTop:"1.6rem",
+zIndex:"0"
+ 
+}}>
+  
+</div>
+
+
         <Card
           style={{
             width: "269px",
@@ -180,11 +241,13 @@ const ContactUs = () => {
             borderRadius: "20px",
             border: "3px solid #000",
             background: "#F2F7F2",
-            boxShadow: "25px 25px 0px 0px #D9D9D9 ",
+            
             textAlign: "center",
           }}
         >
+          
           <Stack>
+       
             <Container
               style={{
                 display: "flex",
@@ -231,6 +294,8 @@ const ContactUs = () => {
             </Text>
           </Stack>
         </Card>
+        </div>
+      
       </Stack>
 
 
