@@ -134,7 +134,7 @@ const ContactUs = () => {
               }}
             >
              
-                 <img src="/phone.svg" alt=""  style={{
+                 <img src="/Phone.svg" alt=""  style={{
                 width: "128px",
                 height:"128px"
               }}/>
