@@ -7,18 +7,21 @@ import { Container } from '@chakra-ui/react'
 const ContactUs = () => {
   return (
     <Stack>
-      <Text
-        style={{
-          textAlign: "center",
-          color: "#FF7E48",
-          fontSize: "96px",
-          fontStyle: "normal",
-          fontWeight: "500",
-          lineHeight: "100px",
-        }}
-      >
-        Get In Touch{" "}
-      </Text>
+   <Text
+  style={{
+    textAlign: "center",
+    color: "#FF7E48",
+    fontSize: "96px",
+    fontStyle: "normal",
+    fontWeight: "500",
+    lineHeight: "100px",
+    fontFamily: "Apfel Grotezk, sans-serif",
+  }}
+>
+  Get In Touch{" "}
+</Text>
+
+
       <Box
         style={{
           display: "flex",
@@ -74,7 +77,7 @@ const ContactUs = () => {
                 marginTop: "24px",
               }}
             >
-              <img src="/public/Location.svg" alt=""  style={{
+              <img src="/Location.svg" alt=""  style={{
                 width: "128px",
                 height:"128px"
               }}/>
@@ -134,7 +137,7 @@ const ContactUs = () => {
               }}
             >
              
-                 <img src="/public/phone.svg" alt=""  style={{
+                 <img src="/Phone.svg" alt=""  style={{
                 width: "128px",
                 height:"128px"
               }}/>
@@ -194,7 +197,7 @@ const ContactUs = () => {
                 marginTop: "24px",
               }}
             >
-              <img src="/public/Email.svg" alt=""  style={{
+              <img src="/Email.svg" alt=""  style={{
                 width: "128px",
                 height:"128px"
               }}/>
